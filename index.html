@@ -7,12 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Assignment 29</title>
   </head>
   <body>
    <div class="container">
-       <div class="h1 text-center">Bootstrap 5 table</div>
+       <div class="h1 text-center mb-5 mt-2">Bootstrap 5 table</div>
      <table class="table table-borderless">
        <thead>
          <tr class="table-dark">
@@ -93,54 +93,52 @@
      </table>
      </div>
      <hr>
-     <h2 class="text-center">Bootstrap Card</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6">
-                <div class="card" style="width:20rem">
-                 <div class="card-header"> <h4>This is header</h4></div>
-                  <div class="card-body">
-                      
-                    <h5 class="card-title">Card title</h5>
-                    <div class="card" style="width: 18rem;">
-                       <ul class="list-group list-group-flush">
-                         <li class="list-group-item">An item</li>
-                         <li class="list-group-item">A second item</li>
-                         <li class="list-group-item">A third item</li>
-                         <li class="list-group-item">A third item</li>
-                         <li class="list-group-item">A third item</li>
-                       </ul>
-                    </div>  
-                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                   <a href="#" class="me-3">Card link</a>
-                   <a href="#">Another link</a> <br> <br>
-                    <a href="#" class="btn btn-primary">Read More</a>
-                 
-            </div>
-            <div class="card-footer"><h4>This is footer</h4></div>
-           </div>
-           </div>
-   
-            <div class="col-xl-6">
-                
-                <div class="card" style="width: 20rem;">
-                   <div class="card-header"><h3>This is header</h3></div>
-                  <img src="./orange-south-africa-1-kg.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias possimus nobis esse quidem dignissimos optio? Lorem ipsum dolor sit amet.</p>
-                   
-                  </div>
-                  <div class="card-footer"><h4>This is footer</h4></div>
-                </div>
-            </div>
+     <h2 class="text-center mb-5">Bootstrap Card</h2>
+<div class="container">
+  <div class="row ms-xl-5">
+    <div class="col-xl-6">
+      <div class="card" style="width: 28rem;">
+        <div class="card-header"> <h5>This is header</h5></div>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <div class="card" style="width: 25rem;">
+           
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">A fourth item</li>
+              <li class="list-group-item">A fifth item</li>
+              
+            </ul> 
+          </div>
+          <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="me-3">Card link</a>
+          <a href="#">Another link</a> <br> <br>
+          <a href="#" class="btn btn-primary">Read More</a>
+         
         </div>
-   
-     </div>
+        <div class="card-footer"><h5>This is footer</h5></div>
+      </div>
+    </div>
+    <div class="col-xl-6">
+      <div class="card" style="width: 28rem;">
+        <div class="card-header"><h5>This is Header</h5></div>
+        <img src="./orannge.jpg" class="card-img-top img-thumbnail img " alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+        </div>
+        <div class="card-footer"><h5>This is footer</h5></div>
+      </div>
+    </div>
+  </div>
+</div>
     
 
  <hr>
- <h3 class="text-center">Bootstrap Form</h3>
+ <h3 class="text-center mb-4">Bootstrap Form</h3>
  <div class="container">
  <form>
     <form>
@@ -173,8 +171,8 @@
             <option value="3">UK</option>
           </select> <br>
         <div class="mb-3 form-check">
-         <label class="form-label" for="exampleCheck1"><h5>Choose your course</h5></label> <br>
-
+         <label for="exampleCheck1" class="form-label dan"> <h5>Choose your course</h5></label> <br>
+          
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Web Design</label> <br>
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -186,7 +184,7 @@
 </div>
 
 <hr>
-<h3 class="text-center">Bootstrap Accordion</h3>
+<h3 class="text-center mb-4">Bootstrap Accordion</h3>
 <div class="container">
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
